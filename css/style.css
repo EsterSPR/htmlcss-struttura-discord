@@ -3,3 +3,24 @@
     margin: 0;
     padding: 0;
 }
+
+nav {
+    background-color: #F08A4B;
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+}
+
+#row-nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.col-nav {
+    width: calc(100%/3);
+    text-align: center;
+    background-color: #577590;
+    padding: 15px 0;
+    border: 1px dotted  black;
+}

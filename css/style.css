@@ -108,3 +108,41 @@ header{
     height: 150px;
     border: 1px dotted  black;
 }
+
+/*footer*/
+
+footer {
+    background-color: #F08A4B;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-content {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.footer-column-first {
+    width: 30%;
+    height: 400px;
+    background-color: #F3CA40;
+    border: 1px dotted  black;
+}
+
+.footer-column-sm {
+    background-color: #F2A541;
+    height: 400px;
+    width: calc(70%/4);
+    border: 1px dotted  black;
+}
+
+.footer-column {
+    background-color: #577590;
+    width: 50%;
+    height: 100px;
+    border: 1px dotted  black;
+}
